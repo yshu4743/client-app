@@ -1,0 +1,45 @@
+.app-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-4);
+  min-height: 55vh;
+  color: var(--gold-deep);
+}
+
+.app-loading p {
+  font-size: var(--step--2);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.app-loading .spinner {
+  width: 2rem;
+  height: 2rem;
+  border-width: 1.5px;
+}
+
+.app-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: min(100% - (var(--gutter) * 2), var(--shell));
+  margin: var(--sp-5) auto 0;
+  padding: 0.85rem 1.15rem;
+  border: 1px solid var(--gold);
+  border-radius: var(--r-sm);
+  background: var(--gold-wash);
+  color: var(--gold-deep);
+  font-size: var(--step--1);
+  line-height: 1.6;
+}
+
+.app-notice svg {
+  flex: 0 0 auto;
+}
+
+#main {
+  display: block;
+}
